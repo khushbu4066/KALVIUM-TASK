@@ -1,34 +1,15 @@
-# PDF Viewer Application
+# PDF Viewer App
 
-This PDF Viewer application is built using React and allows users to view PDF files, navigate through pages, and differentiate roles (Admin vs. Viewer) with a clean, modern UI.
+This React-based PDF Viewer App provides a responsive interface to view PDF files and supports role-based access for Admin and Viewer users. With an easy-to-navigate design, the application makes it simple to browse PDF pages, offering an engaging viewing experience.
 
-## Table of Contents
-- [Features](#features)
-- [Project Structure](#project-structure)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Folder Structure](#folder-structure)
-- [Customization](#customization)
-- [Contributing](#contributing)
-- [License](#license)
+## Overview
+The PDF Viewer App is designed to support users in accessing and navigating PDF files within a modern, intuitive interface. Role-based access ensures that Admins have additional controls, while Viewers enjoy a streamlined, straightforward experience.
 
-## Features
-- Displays PDF files with page navigation
-- Supports different roles (Admin with navigation control, Viewer without)
-- Modern and responsive user interface
-- Easy to integrate with custom backend or file paths for PDF files
+### Key Features
+- **PDF Viewing with Page Navigation**: Navigate through multi-page PDF documents effortlessly.
+- **Role-Based Access Control**: 
+  - **Admin**: Access to full navigation controls and administrative functions.
+  - **Viewer**: Basic viewing capabilities, providing a minimalistic experience.
+- **Responsive UI**: Designed to adjust smoothly across desktops, tablets, and mobile devices.
+- **Easy Backend Integration**: Flexible for integration with backend services or file directories.
 
-## Project Structure
-The project includes a main `PDFViewer` component styled with a modern look. The `PDFViewer.css` file contains the styles, and we use the `react-pdf` library to render the PDF files.
-
-## Prerequisites
-- **Node.js** (v14 or later)
-- **npm** or **yarn** package manager
-
-## Installation
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/pdf-viewer-app.git
-   cd pdf-viewer-app

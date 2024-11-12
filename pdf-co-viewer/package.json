@@ -1,0 +1,21 @@
+{
+  "name": "pdf-co-viewer",
+  "version": "1.0.0",
+  "description": "A real-time PDF co-viewer for synchronized presentations",
+  "main": "server.js",
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "node server.js",
+    "client": "npm start --prefix client",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["pdf", "viewer", "real-time", "synchronization", "socket.io"],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "socket.io": "^4.8.1",
+    "concurrently": "^8.2.0",
+    "react-pdf": "^5.x.x"
+  }
+}

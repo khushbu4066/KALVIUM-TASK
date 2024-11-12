@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "express": "^4.21.1",
+    "pdfjs-dist": "^2.16.105",
+    "socket.io": "^4.8.1",
+    "styled-components": "^6.1.13"
+  }
+}
